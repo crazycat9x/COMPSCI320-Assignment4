@@ -21,4 +21,4 @@ while len(line) != 1:
     result.append(calculateProfit([int(x) for x in line]))
     line = sys.stdin.readline().rstrip().split()
 
-print("\n".join(str(x) for x in result))
+sys.stdout.write("\n".join(str(x) for x in result))

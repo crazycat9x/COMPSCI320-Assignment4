@@ -38,4 +38,4 @@ while len(line) != 1:
     result.append(searchPathFromSide([int(x) for x in line], 2))
     line = sys.stdin.readline().rstrip().split()
 
-print("\n".join(str(x) for x in result))
+sys.stdout.write("\n".join(str(x) for x in result))
